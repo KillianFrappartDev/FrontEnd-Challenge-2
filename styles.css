@@ -11,7 +11,6 @@
     text-align: center;
     position: relative;
     background-color: hsl(193, 100%, 96%) ;
-    /* background-image: url(images/bg-hero-mobile.svg); */
 }
 
 .logo {
@@ -169,3 +168,55 @@ button:hover {
 
 
 /* DESKTOP */
+
+@media (min-width: 1000px) {
+
+    /* HEADER */
+
+    .header {
+        width: 1400px;
+        height: 700px;
+        text-align: left;
+    }
+
+    .logo {
+        width: 20%;
+        top: 50px;
+        left: 100px;
+    }
+
+    .button-1 {
+        top: 50px;
+        right: 100px;
+        width: 180px;
+        height: 35px;
+    }
+
+    .text-1 {
+        left: 100px;
+        top: 200px;
+        line-height: 2;
+        padding-right: 700px;
+    }
+
+    .text-1 h2 {
+        font-size: 2rem;
+    }
+
+    .text-1 p {
+        font-size: 1.1rem;
+    }
+
+    .button-2 {
+        left: 260px;
+        top: 550px;
+    }
+
+    .mockup {
+        width: 40%;
+        left: 1050px;
+        top: 400px;
+    }
+
+
+}
