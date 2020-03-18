@@ -218,5 +218,43 @@ button:hover {
         top: 400px;
     }
 
+    /* CONTENT */
+
+    .card {
+        width: 1200px;
+        text-align: left;
+    }
+
+    .content-img {
+        width: 40%;
+        left: 920px;
+        top: 250px;
+    }
+
+    .content-txt {
+        top: 150px;
+        padding: 0 600px 0 100px;
+    }
+
+    .content-txt h2 {
+        font-size: 2rem;
+    }
+
+    .content-txt p {
+        font-size: 1rem;
+    }
+
+    /* EXTRA */
+
+    .extra {
+        width: 800px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        width: 1400px;
+    }
+
 
 }
