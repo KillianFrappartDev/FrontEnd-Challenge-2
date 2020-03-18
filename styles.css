@@ -1,0 +1,80 @@
+/* PHONE */
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    margin: 0 auto ;
+    width: 375px;
+    height: 680px;
+    text-align: center;
+    position: relative;
+    background-color: hsl(193, 100%, 96%) ;
+    /* background-image: url(images/bg-hero-mobile.svg); */
+}
+
+.logo {
+    width: 25%;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.header button {
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header button:hover {
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-1 {
+    width: 110px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: #FFF;
+    border: none;
+}
+
+.text {
+    position: absolute;
+    top: 80px;
+    padding: 0 40px;
+    
+    
+}
+
+.text h2 {
+    font-weight: 600;
+}
+
+.button-2 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    top: 375px;
+    border-radius: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    border: none;
+    
+}
+
+.mockup {
+    position: absolute;
+    width: 80%;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* DESKTOP */
